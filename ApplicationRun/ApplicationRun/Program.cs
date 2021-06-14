@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using FactoryMethodGuru;
+using System;
 
 namespace ApplicationRun
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-           
+            Console.WriteLine("FactryMethod Guru");
+            new Cliente().Main();
         }
     }
 }
